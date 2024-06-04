@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is submit button website</title>
+</head>
+
+<body>
+    <h1>We will learn how button works</h1>
+
+    <!-- 
+    <a href="https://www.google.com" target="_blank">
+        <button style="font-size: 25px; background-color: gray; color: lightblue; border-radius: 15px;">
+            To search in Google
+            Please Click here
+        </button> -->
+
+    <p id="needtochange">My Name is X</p>
+    <button onclick="doSomething()" style="font-size: 25px; background-color: aqua; color: black; border-radius: 20px;">Bangladesh</button>
+
+    <!-- <button onclick="doSomething()" style="font-size: 25px; background-color: gray; color: lightblue; border-radius: 15px;"></button> -->
+
+    <script>
+        function doSomething(){
+            document.getElementById("needtochange").innerHTML = "My Name is Badhon";
+        }
+    </script>
+
+</body>
+
+</html>
+
+
+<!-- button tag is used for creating a button in HTML. It is used to create a clickable button, which can be used to submit forms or anywhere in a document that needs simple, standard button functionality. It is used to create a button that can be clicked, and also trigger a function that is defined in the script -->
+
+<!-- <button style="font-size: 25px; background-color: gray; color: lightblue; border-radius: 15px;"> -->
+<!-- style attribute used for font size , background-color, color and border-radius of the button -->
